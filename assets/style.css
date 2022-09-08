@@ -1,0 +1,250 @@
+.container{
+    display: flex;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+
+}
+
+.chats{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.perfil-maria{
+    background-color: white;
+    width: 23rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #BEC1BB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.maria-1{
+    display: flex;
+    align-items: center;
+}
+
+.maria-2{
+    display: flex;
+    align-items: center;
+}
+.imagen-maria{
+    background-image: url(/assets/imgs/maria.jpg);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2rem;
+    border-style: double;
+    border-color: #BEC1BB;
+    margin-left: 10px;
+}
+
+.text-chat-maria{
+    margin-left: 15px;
+    line-height: 3px;
+}
+
+.font-awesome{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: gray;
+}
+
+.activa{
+    font-size: 13px;
+    color: gray;
+}
+
+.interfaz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 65rem;
+    background-color: whitesmoke;
+
+}
+
+.imagen-interfaz{
+    background-image: url(/assets/imgs/hand.png);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.text-interfaz{
+    text-align: center;
+    line-height: 5px;
+}
+
+.networking{
+    font-size: 60px;
+}
+
+.bajada{
+    font-size: 22px;
+}
+
+.nuevo-chat{
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid #BEC1BB;
+    padding: 15%;
+}
+
+.rectangulo{
+    background-color: #A491D2;
+    height: 4rem;
+    width: 15rem;
+    text-align: center;
+    color: white;
+}
+
+.texto-rectangulo{
+    font-size: 20px;
+}
+
+.perfil-chat{
+    background-color: white;
+    width: 23rem;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    border: 1px solid #BEC1BB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.chat{
+    display: flex;
+    align-items: center;
+}
+
+.imagen-juanita{
+    background-image: url(/assets/imgs/juanita.jpg);
+    width: 65px;
+    height: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3rem;
+    margin-left: 35px;
+    border-style: double;
+    border-color: #BEC1BB;
+}
+
+.text-chat{
+    margin-left: 20px;
+    line-height: 5px;
+}
+
+.nombre{
+    font-size: x-large;
+}
+
+.mensaje{
+    font-size: large;
+}
+
+.imagen-alberto{
+    background-image: url(/assets/imgs/alberto.jpg);
+    width: 65px;
+    height: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3rem;
+    margin-left: 35px;
+    border-style: double;
+    border-color: #BEC1BB;
+}
+
+.imagen-ignacio{
+    background-image: url(/assets/imgs/ignacio.jpg);
+    width: 65px;
+    height: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3rem;
+    margin-left: 35px;
+    border-style: double;
+    border-color: #BEC1BB;
+}
+
+.imagen-cristian{
+    background-image: url(/assets/imgs/cristian.jpg);
+    width: 65px;
+    height: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3rem;
+    margin-left: 35px;
+    border-style: double;
+    border-color: #BEC1BB;
+}
+
+.imagen-mariajose{
+    background-image: url(/assets/imgs/mariajose.jpg);
+    width: 65px;
+    height: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3rem;
+    margin-left: 35px;
+    border-style: double;
+    border-color: #BEC1BB;
+}
+
+.imagen-gonzalo{
+    background-image: url(/assets/imgs/gonzalo.jpg);
+    width: 65px;
+    height: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3rem;
+    margin-left: 35px;
+    border-style: double;
+    border-color: #BEC1BB;
+}
+
+.imagen-juanpablo{
+    background-image: url(/assets/imgs/juanpablo.jpg);
+    width: 65px;
+    height: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3rem;
+    margin-left: 35px;
+    border-style: double;
+    border-color: #BEC1BB;
+}
+
+.imagen-magdalena{
+    background-image: url(/assets/imgs/magdalena.jpg);
+    width: 65px;
+    height: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3rem;
+    margin-left: 35px;
+    border-style: double;
+    border-color: #BEC1BB;
+}
